@@ -1,11 +1,15 @@
 include <stdio.h>
 
 /**
- * main - this is the main put function
- * Return: 0
+ * main - Entry point
+ *
+ * Description: A C program that prints with put function
+ *
+ * Return: Always 0 (success) 
  */
+
 int main(void)
 {
-	puts ("\"Programming is like building a multilingual puzzle);
-Return: (0);
-	{
+	puts ("\"Programming is like building a multilingual puzzle");
+        return (0);
+}
