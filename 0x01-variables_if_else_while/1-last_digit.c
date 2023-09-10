@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*Discription: 'last digit of a number'
+*Description: 'get the last digit of a number'
 *Return: always 0
 */
 int main(void)
@@ -13,6 +13,7 @@ int main(void)
 
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
+}
 			kn = n % 10;
 			if (kn > 5)
 			{
