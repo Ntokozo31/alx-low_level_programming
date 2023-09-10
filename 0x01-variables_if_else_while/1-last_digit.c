@@ -7,7 +7,6 @@
 /**
  * main - Print a taxt according to a number
  * Return: Always 0 (Success)
- *
  */
 
 int main(void)
@@ -17,7 +16,7 @@ int main(void)
 	int n, lastd;
 
 	srand(time(0));
-		n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	lastd = n % 100;
 
 	if (lastd > 5)
