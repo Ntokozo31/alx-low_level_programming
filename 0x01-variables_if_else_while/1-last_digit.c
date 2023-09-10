@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-		int n = 98;
+		int n;
 		int kn;
 
 			srand(time(0));
@@ -23,7 +23,7 @@ int main(void)
 				printf("Last digit of %d is %d and is 0", n, kn); }
 			else
 			{
-				printf("Last digit of %d is %d and is less than 6 and not 0", n, kn);
+				printf("Last digit of %d is %d and less than 6 and not 0", n, kn);
 			}
 			return (0);
 }
