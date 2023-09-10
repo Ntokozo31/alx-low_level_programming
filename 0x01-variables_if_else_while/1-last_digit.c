@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-		int n;
+		int n = 98;
 		int kn;
 
 			srand(time(0));
