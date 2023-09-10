@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * Discription: 'get the last digit of a number'
- * Return: always 0
- */
+*main - Entry point
+*Discription: 'get the last digit of a number'
+*Return: always 0
+*/
 int main(void)
 {
 		int n;
@@ -16,14 +16,14 @@ int main(void)
 			kn = n % 10;
 			if (kn > 5)
 			{
-				printf("Last digit of %d is %d and is greater then 5", n, kn);
+				printf("Last digit of %d is %d and is greater then 5\n", n, kn);
 			}
 			else if (kn == 0)
 			{
-				printf("Last digit of %d is %d and is 0", n, kn); }
+				printf("Last digit of %d is %d and is 0\n", n, kn); }
 			else
 			{
-				printf("Last digit of %d is %d and less than 6 and not 0", n, kn);
+				printf("Last digit of %d is %d and less than 6 and not 0\n", n, kn);
 			}
 			return (0);
 }
