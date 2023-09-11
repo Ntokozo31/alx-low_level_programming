@@ -6,7 +6,8 @@
 
 /**
  * main - Print a taxt according to a number
- * Return: Always 0 (Success)
+ * Return: Always  (Success)
+ *
  */
 
 int main(void)
