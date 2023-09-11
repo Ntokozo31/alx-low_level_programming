@@ -1,8 +1,9 @@
 #include <stdio>
 /**
-*main - this sdesribes the main function of the code
-*Return: 0
+*main - A program that prints the size of various computer types
+*Return: 0 (Success)
 */
+
 int main(void)
 {
 	char a;
