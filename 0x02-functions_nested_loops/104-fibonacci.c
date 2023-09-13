@@ -6,11 +6,11 @@
  * Return: always 0
  */
 
-int main()
+int main(void)
 {
 	unsigned int a = 1, b = 2, c, count = 2;
 
-	printf("%u,%u", a,b);
+	printf("%u,%u", a, b);
 
 	while (count < 98)
 	{
@@ -18,7 +18,7 @@ int main()
 	a = b;
 	b = c;
 	count++;
-	printf("%u",c);
+	printf("%u", c);
 	if (count < 98)
 	{
 	printf(",");
@@ -30,4 +30,3 @@ int main()
 	}
 	return (0);
 }
-	
