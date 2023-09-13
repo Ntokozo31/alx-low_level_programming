@@ -10,7 +10,7 @@ int main()
 {
 	unsigned int a = 1, b = 2, c, count = 2;
 
-	printf("%u,%u" a,b);
+	printf("%u,%u", a,b);
 
 	while (count < 98)
 	{
