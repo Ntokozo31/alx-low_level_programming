@@ -7,7 +7,7 @@ if (n < 0 || n > 15)
 {
 	return;
 }
-for (i = 0; i <= 10; i++)
+for (int i = 0; i <= 10; i++)
 {
 printf("%2d x %2d = %2d\n", i, n, i, *n);
 }
