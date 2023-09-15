@@ -3,7 +3,7 @@
 /**
  * isdigit.c - Check if the charecter is a digit
  * @x: The number to be checked
- * Return: 1 for a charecter that will be a digit or 0 for any 
+ *Return: 1 or 0
  */
 
 int _isdigit(int x)
