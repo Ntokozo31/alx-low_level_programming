@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _stracat - Concantenates two strings
+ * _stracat - Concatenates two strings
  * @dest: The destination string
  * @src: The source string
  * Return: A pointerto the resulting string dest
@@ -11,7 +11,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int dlen = 0, i++;
+	int dlen = 0, i;
 
 	while (dest[dlen])
 	{
