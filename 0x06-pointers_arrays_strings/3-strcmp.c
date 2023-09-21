@@ -1,5 +1,15 @@
 #include "main.h"
 
+/**
+ * _strcamp - Comperes pointers to two strings
+ * @s1: A pointer to the first string to be compered
+ * @s2: A pointer to the second string to be compered
+ * Return: If str1 < str2
+ * if str1 == str2, 0
+ * if str1 > str2, the positive difference of the first unmatched character
+ * discription - Compaees two strings and returns an integer value
+ */
+
 
 int _strcmp(char *s1, char *s2)
 {
