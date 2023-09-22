@@ -1,24 +1,25 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _strpbrk - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
+ * _strpbrk - function name
+ * @s: parameter 1
+ * @accept: parameter 2
+ * Return: Always 0
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int i, n
+	while (*s != '\0')
+	{
+	const char *a = accept;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*a != '\0')
 	{
-	for (n = 0; accept[n] != '\0'; n++)
-	{
-	if (s[i] == accept[n])
-	return (s + i);
+	if (*s == *a)
+	return (s);
+	a++;
 	}
+	s++;
 	}
 	return (NULL);
 }
