@@ -29,4 +29,6 @@ void print_buffer(char *b, int size);
 
 char *cap_string(char *);
 
+char *cap_string(char *str);
+
 #endif 
