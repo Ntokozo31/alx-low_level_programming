@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcamp - Comperes two strings
+ * _strcmp - Comperes two strings
  *
  * This function comperes two strings 's1' and 's2', character by character
  * it returns an integer value:
