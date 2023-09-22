@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * _stracat - Concatenates two strings
+ * _strcat - concatenates two strings
  * @dest: The destination string
  * @src: The source string
  * Return: A pointerto the resulting string dest
  */
 
-char *_strcat(char *dest, char *srcd)
+char *_strcat(char *dest, char *src)
 {
 	int dlen = 0, i;
 
