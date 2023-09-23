@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r) {
     int len1 = strlen(n1);
