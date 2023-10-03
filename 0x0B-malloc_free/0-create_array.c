@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- *creat_array - creat an array of char
- *@size: the size of the array
- *@c: the char to fill in the array
+ * create_array - creates an array of chars
+ * @size: The size of the array
+ * @c: The char to fill in the array
  *
  * Return: the array filled
  */
