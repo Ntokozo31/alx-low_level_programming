@@ -13,8 +13,6 @@ int _putchar(char c);
 
 void (*f)(char *);
 
-int (*get_op_func(char *s))(int, int);
-
-int op_add(int a, int b);
+int size, int (*cmp)(int);
 
 #endif
