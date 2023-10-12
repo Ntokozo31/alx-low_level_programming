@@ -3,7 +3,7 @@
 /**
  * print_numbers - prints numbers followed by a newline
  * @n: number of parameter
- * separator: separator between two numbers
+ * @separator: separator between two numbers
  * Return: always 0
  */
 
@@ -11,6 +11,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list ap;
+
 	va_start(ap, n);
 
 	if (separator == NULL)
