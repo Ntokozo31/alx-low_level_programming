@@ -1,16 +1,20 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include "lists.h"
 
 /**
- * myStartupFun - apply the construtor attribute to myStartupFun() so that it is executed before main()
+ * free_list - release memory allocated for a list
+ *
+ * @head: A pointer of the first node of the list to free
  */
-void myStartupFun(void)
-__attribute__((constructor));
 
-/**
- * myStartupFun - implimentation of myStartupFun
- */
-void myStartupFun(void)
+void free_list(list_t *head)
 {
-	printf("you are best! and you must allow.\n");
-	printf("i bore my room upon my back!\n");
+	if (head)
+	{
+		free_list(head->next);
+		if (head->str)
+			free(head->str);
+		free(head);
+	}
 }
