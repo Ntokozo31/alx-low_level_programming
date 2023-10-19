@@ -2,7 +2,8 @@
 #include <string.h>
 #include "lists.h"
 
-/*_strlen - find ghe length of a string
+/**
+ * _strlen - find ghe length of a string
  * @str: string to find the length of
  *
  * Return: length of string
@@ -11,6 +12,7 @@
 unsigned int _strlen(char *str)
 {
 	unsigned int i;
+
 	for (i = 0; str[i]; i++)
 		;
 	return (i);
@@ -44,8 +46,8 @@ list_t *add_node_end(list_t **head, const char *str)
 	*head = new;
 	return (new);
 }
-tmp = *head;
-while (tmp->next)
+	tmp = *head;
+	while (tmp->next)
 	tmp = tmp->next;
 	tmp->next = new;
 	return (new);
